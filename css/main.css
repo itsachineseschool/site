@@ -23,11 +23,11 @@ body {
 }
 
 ::selection {
-  background: #66b528;
+  background: rgba(247, 137, 36, 0.75);
   color: #fff;
 }
 ::-moz-selection {
-  background: #66b528;
+  background: rgba(247, 137, 36, 0.75);
   color: #fff;
 }
 
@@ -49,11 +49,11 @@ h1, h2, h3, h4, h5, h6 {
 .alt-title {
   display: inline;
   font-size: 20pt;
-  background-color: rgba(102, 181, 40, 0.48);
+  background-color: rgba(247, 137, 36, 0.5);
   font-family: 'Raleway', sans-serif;
-  border-left: 3px solid #66b528;
+  border-left: 3px solid #d07b2d;
   border-spacing: 30px;
-  padding: 3px 2px 3px 2px;
+  padding: 3px 10px 3px 3px;
   margin-bottom: 1rem;
 }
 
@@ -86,6 +86,12 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   padding: 1rem;
+}
+
+.jumbotron {
+  background: linear-gradient(to right, #e67107, #ff6e05);
+  color: #fff;
+  background-repeat: no-repeat;
 }
 
 #wrapper-overlay {
