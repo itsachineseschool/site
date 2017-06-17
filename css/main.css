@@ -1,9 +1,9 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Raleway:300,400,600');
 
 html {
-  height: 100%;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -15,38 +15,107 @@ html {
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 12rem;
-  min-height: 100%;
   color: #000;
-  background-color: #F7F7F7;
-  width: 100%;
+  padding-top: 3rem;
+  background-color: #fbfbfb;
+  height: 100%;
   font-family: 'PT Sans', sans-serif;
 }
 
 ::selection {
-  background: #057AFF;
+  background: #f0a960;
   color: #fff;
 }
 ::-moz-selection {
-  background: #057AFF;
+  background: #f0a960;
   color: #fff;
 }
 
 a {
   cursor: pointer;
-  color: #333399;
+  color: #66b528;
 }
 
 a:hover {
   color: inherit;
-  color: #333399;
+  color: #66b528;
   opacity: .75;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#homepage {
+  overflow: hidden;
+}
+
+#wrapper {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://github.com/itsachineseschool/site/blob/master/img/panda.jpg?raw=true");
+  height: 100vh;
+  max-width: 100%;
+
+}
+
+.footer {
+  position: absolute;
+  background-color: #fafafa;
+  border-top: 1px solid #f7f7f7;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+#wrapper-overlay {
+  vertical-align: middle;
+  max-width: 100%;
+  height: 100%;
+  background-color: rgba(19, 19, 19, 0.75);
+}
+
+#wrapper-content {
+  position: fixed;
+  top: 40vh;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 1px 10px #000;
+}
+
+.wrapper-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48pt;
+  font-weight: 700;
+}
+
+.wrapper-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24pt;
+  font-weight: 300;
+}
+
+
 .navbar-default {
   background-color: #ffffff;
-  border-bottom: 1px solid #ececec;
+  border-bottom: none;
+  border-top: 5px solid #d07b2d;
+  border-bottom: 1px solid #F7F7F7;
 }
+
 .navbar-default .navbar-brand {
   color: #252525;
   font-family: 'Raleway', sans-serif;
@@ -61,6 +130,7 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
   color: #252525;
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #000000;
@@ -69,7 +139,7 @@ a:hover {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #000000;
-  background-color: #fbfbfb;
+  background-color: #F7F7F7;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -115,9 +185,17 @@ a:hover {
 }
 
 .login-btn {
-  background-color: rgb(102, 181, 40);
+  background-color: #66b528;
   min-width: 75px;
   text-align: center;
+}
+
+.login-btn:hover {
+  border-bottom-color: transparent;
+}
+
+.login-btn:focus {
+  background-color: #70c62d;
 }
 
 .login-btn a {
