@@ -23,11 +23,11 @@ body {
 }
 
 ::selection {
-  background: #f0a960;
+  background: #66b528;
   color: #fff;
 }
 ::-moz-selection {
-  background: #f0a960;
+  background: #66b528;
   color: #fff;
 }
 
@@ -44,6 +44,17 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
+}
+
+.alt-title {
+  display: inline;
+  font-size: 20pt;
+  background-color: rgba(102, 181, 40, 0.48);
+  font-family: 'Raleway', sans-serif;
+  border-left: 3px solid #66b528;
+  border-spacing: 30px;
+  padding: 3px 2px 3px 2px;
+  margin-bottom: 1rem;
 }
 
 #homepage {
