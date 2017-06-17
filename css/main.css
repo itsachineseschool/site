@@ -45,10 +45,11 @@ a:hover {
 
 .navbar-default {
   background-color: #ffffff;
-  border-color: #fbfbfb;
+  border-bottom: 1px solid #ececec;
 }
 .navbar-default .navbar-brand {
   color: #252525;
+  font-family: 'Raleway', sans-serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
