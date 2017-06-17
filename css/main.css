@@ -197,16 +197,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .login-btn {
   background-color: #66b528;
+  color: #fff !important;
   min-width: 75px;
   text-align: center;
 }
 
 .login-btn:hover {
-  border-bottom-color: transparent;
+  background-color: #70c62d !important;
 }
 
 .login-btn:focus {
-  background-color: #70c62d;
+  background-color: #4d8b1e !important;
 }
 
 .login-btn a {
