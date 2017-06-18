@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Pan Mei Chinese Tutoring Center</title>
+    <title>Calendar - Pan Mei Chinese Tutoring Center</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </head>
-  <body id="homepage">
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
@@ -24,24 +24,33 @@
           </div>
           <div class="collapse navbar-collapse" id="nav-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="news.html">News</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="calendar.html">Calendar</a></li>
+              <li class="active"><a href="calendar.html">Calendar</a></li>
               <li><a href="contact.html">Contact</a></li>
-              <li><a class="login-btn" href="auth.html">Login</a></li>
+              <li><a class="login-btn" data-toggle="modal" data-target="#login">Login</a></li>
             </ul>
           </div>
         </div>
     </nav>
 
-    <div id="wrapper">
-      <div id="wrapper-overlay"></div>
-        <div class="container" id="wrapper-content">
-          <h1 class="wrapper-title">Pan Mei</h1>
-          <h1 class="wrapper-subtitle">Chinese Tutoring Center</h1>
-        </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Calendar</h1>
+      </div>
     </div>
+
+    <div class="container">
+
+    </div>
+
+
+
+    <div class="container-fluid footer">
+      &copy; 2017 Pan Mei Chinese Tutoring Center
+    </div>
+
 
   </body>
 </html>
