@@ -20,11 +20,11 @@ body {
   padding-top: 3rem;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', 仿宋, sans-serif;
 }
 
 p {
-  font-size: 12pt;
+  font-size: 13pt;
 }
 
 ::selection {
@@ -38,13 +38,18 @@ p {
 
 a {
   cursor: pointer;
-  color: #66b528;
+  color: #559821;
 }
 
 a:hover {
   color: inherit;
   color: #66b528;
   opacity: .75;
+}
+
+a:focus {
+  cursor: pointer;
+  color: #559821;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 3px solid #d07b2d;
   border-spacing: 30px;
   padding: 3px 10px 3px 3px;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 #homepage {
@@ -87,10 +92,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 2px;
   padding-bottom: 2px;
   text-align: center;
+  max-width: 100%;
   bottom: 0;
   right: 0;
   left: 0;
   padding: 1rem;
+}
+
+.panel-title {
+  font-family: 'PT Sans', sans-serif;
 }
 
 .jumbotron {
@@ -206,22 +216,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.login-btn {
+.register-btn {
   background-color: #66b528;
   color: #fff !important;
   min-width: 75px;
   text-align: center;
 }
 
-.login-btn:hover {
+.register-btn:hover {
   background-color: #70c62d !important;
 }
 
-.login-btn:focus {
+.register-btn:focus {
   background-color: #4d8b1e !important;
 }
 
-.login-btn a {
+.register-btn a {
   color: #fff !important;
 }
 
@@ -690,36 +700,4 @@ fieldset[disabled] .btn-danger.focus {
   }
 }
 
-.form-signin-heading,	.checkbox {
-  margin-bottom: 30px;
-}
-
-.checkbox {
-  font-weight: normal;
-
-}
-
-.form-control {
-  position: relative;
-  font-size: 16px;
-  height: auto;
-  padding: 10px;
-	@include box-sizing(border-box);
-
-	&:focus {
-	  z-index: 2;
-	}
-}
-
-input[type="text"] {
-  margin-bottom: -1px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-input[type="password"] {
-  margin-bottom: 20px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  }
 }
