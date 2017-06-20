@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Pan Mei Chinese Tutoring Center</title>
+    <title>News - Pan Mei Chinese Tutoring Center</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </head>
-  <body id="homepage">
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -26,8 +26,8 @@
           <div class="collapse navbar-collapse" id="nav-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="news.html">News</a></li>
               <li><a href="about.html">About</a></li>
+              <li><a href="tuition.html">Tuition</a></li>
               <li><a href="calendar.html">Calendar</a></li>
               <li><a href="contact.html">Contact</a></li>
               <li><a class="register-btn" href="register.html">Register</a></li>
@@ -36,23 +36,46 @@
         </div>
     </nav>
 
-    <div id="message">
-        <div style="padding: 5px;">
-            <div id="inner-message" class="alert alert-danger">
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
-              <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-              <b>Important Message:</b> Pan Mei CTC will be closed due to the inclement weather. <a class="alert-link" href="">Learn More >></a>
+    <div class="jumbotron">
+      <div class="container" align="center">
+        <h1>Pan Mei Chinese Tutoring Center</h1>
+      </div>
+    </div>
+    <div class="container">
+      <h2>News</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
+            <h4 class="sidebar-title">View by month</h4>
+            <li role="presentation" class="active"><a href="#june2017">June 2017</a></li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Welcome to Pan Mei Chinese Tutoring Center</h3>
             </div>
+            <div class="panel-body">
+              Panel content
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div id="wrapper">
-      <div id="wrapper-overlay"></div>
-        <div class="container" id="wrapper-content">
-          <h1 class="wrapper-title">Pan Mei</h1>
-          <h1 class="wrapper-subtitle">Chinese Tutoring Center</h1>
-        </div>
+    <div class="container-fluid footer">
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-language" aria-hidden="true"></i> Change Language <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-header"><i class="fa fa-globe" aria-hidden="true"></i> Change page language</li>
+          <li class="active"><a href="#">English</a></li>
+          <li><a href="zh/index.html">Chinese</a></li>
+        </ul>
+      </div>
+      <p class="footer-text">&copy; 2017 Pan Mei Chinese Tutoring Center</p>
     </div>
-
   </body>
 </html>
