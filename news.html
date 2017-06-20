@@ -13,7 +13,7 @@
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -44,6 +44,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
+            <h4 class="sidebar-title">View by month</h4>
+            <li role="presentation" class="active"><a href="#june2017">June 2017</a></li>
+          </ul>
         </div>
         <div class="col-md-9">
           <div class="panel panel-default">
@@ -59,21 +63,17 @@
     </div>
 
     <div class="container-fluid footer">
-      <div class="col-md-6">
-        <div class="btn-group dropup">
-          <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-language" aria-hidden="true"></i> Change Language <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li class="dropdown-header">Change page language</li>
-            <li class="active"><a href="#">English</a></li>
-            <li><a href="zh/news.html">Chinese</a></li>
-          </ul>
-        </div>
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-language" aria-hidden="true"></i> Change Language <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-header"><i class="fa fa-globe" aria-hidden="true"></i> Change page language</li>
+          <li class="active"><a href="#">English</a></li>
+          <li><a href="zh/news.html">Chinese</a></li>
+        </ul>
       </div>
-      <div class="col-md-6">
-        &copy; 2017 Pan Mei Chinese Tutoring Center
-      </div>
+      <p class="footer-text">&copy; 2017 Pan Mei Chinese Tutoring Center</p>
     </div>
   </body>
 </html>

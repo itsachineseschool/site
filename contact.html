@@ -13,7 +13,7 @@
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -43,22 +43,32 @@
     </div>
     <div class="container">
 
-      <span class="alt-title">E-Mail</span>
+      <span class="alt-title-sm"><i class="fa fa-envelope" aria-hidden="true"></i> E-Mail</span>
       <p>
-        <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:contact@panmeictc.com">contact@panmeictc.com</a>
+        <a href="mailto:contact@panmeictc.com">contact@panmeictc.com</a>
       </p>
-      <span class="alt-title">Phone Number</span>
+      <span class="alt-title-sm"><i class="fa fa-phone" aria-hidden="true"></i> Phone Number</span>
       <p>
-        <i class="fa fa-phone" aria-hidden="true"></i> 201-123-4567
+        201-123-4567
       </p>
-      <span class="alt-title">WeChat</span>
+      <span class="alt-title-sm"><i class="fa fa-weixin" aria-hidden="true"></i> WeChat</span>
       <p>
-        <i class="fa fa-weixin" aria-hidden="true"></i> <a href="#">Join the Group</a>
+        <a href="#">Join the Group</a>
       </p>
     </div>
 
     <div class="container-fluid footer">
-      &copy; 2017 Pan Mei Chinese Tutoring Center
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-language" aria-hidden="true"></i> Change Language <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-header"><i class="fa fa-globe" aria-hidden="true"></i> Change page language</li>
+          <li class="active"><a href="#">English</a></li>
+          <li><a href="zh/contact.html">Chinese</a></li>
+        </ul>
+      </div>
+      <p class="footer-text">&copy; 2017 Pan Mei Chinese Tutoring Center</p>
     </div>
   </body>
 </html>
