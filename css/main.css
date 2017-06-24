@@ -83,7 +83,7 @@ h4 {
 }
 
 #homepage {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 #wrapper {
