@@ -848,3 +848,14 @@ button.close {
     background-color: #66b528;
     outline: 0;
 }
+
+
+/* Nav brand scaling fix on Galaxy devices and/or devices with similar screen sizes */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+    .navbar-brand {
+      font-size: 11pt !important;
+    }
+}
