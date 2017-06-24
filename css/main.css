@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i|Raleway:400,600');
 
 html {
   height: 100%;
@@ -20,7 +20,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 10rem;
   min-height: 100%;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -54,13 +54,17 @@ a:focus {
   color: #559821;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  font-weight: 600;
 }
 
 .alt-title {
   display: inline;
-  font-size: 20pt;
+  font-size: 18pt;
   background-color: rgba(247, 137, 36, 0.5);
   font-family: 'Raleway', sans-serif;
   border-left: 3px solid #d07b2d;
@@ -116,11 +120,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .panel-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .sidebar-title {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding-bottom: 12px;
 }
@@ -172,6 +176,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 #inner-message {
   margin: 0 auto;
+}
+
+#tuition-table {
+  text-align: center !important;
+  max-width: 50%;
+
+}
+
+th {
+  text-align: center !important;
+}
+
+
+#tuition-duration {
+  max-width: 75px;
 }
 
 .navbar-default {
