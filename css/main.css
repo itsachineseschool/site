@@ -199,37 +199,44 @@ th {
   max-width: 75px;
 }
 
-.navbar-default {
+/*.navbar-default {
   background-color: #ffffff;
   border-bottom: none;
   border-top: 5px solid #ec7100;
   border-bottom: 1px solid #ededed;
+}*/
+
+.navbar-default {
+  background: linear-gradient(to right, #ff6e05, #ff8505);
+  background-repeat: no-repeat;
+  border-bottom: 0px;
 }
 
 .navbar-default .navbar-brand {
-  color: #252525;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #000000;
+  color: #fff;
 }
 .navbar-default .navbar-text {
-  color: #252525;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #252525;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
+  color: #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #000000;
-  background-color: #F7F7F7;
+  color: #fff;
+  font-weight: 600;
+  background-color: transparent;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -242,20 +249,20 @@ th {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fbfbfb;
+  background-color: rgba(251, 251, 251, 0.5);
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #252525;
+  background-color: #fff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: transparent;
 }
 .navbar-default .navbar-link {
-  color: #252525;
+  color: #FFF;
 }
 .navbar-default .navbar-link:hover {
-  color: #000000;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -302,10 +309,11 @@ th {
 }
 
 .btn-register {
-  color: #fff !important;
-  background-color: #5ea427 !important;
+  color: #fff;
+  background-color: transparent;
   border-radius: 20px;
   border-width: 2px;
+  border-color: #fff;
   font-size: 14px;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
@@ -315,7 +323,8 @@ th {
 
 .btn-register:hover {
   color: #fff !important;
-  background-color: #66b528 !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-width: 2px;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
