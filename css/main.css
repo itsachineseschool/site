@@ -82,6 +82,12 @@ h4 {
   padding: 3px 10px 3px 3px;
 }
 
+#register-btn {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: 100%;
+}
+
 #homepage {
   overflow: hidden !important;
 }
@@ -130,7 +136,7 @@ h4 {
 }
 
 .jumbotron {
-  background: linear-gradient(to right, #ff6e05, #ff9605);
+  background: linear-gradient(to right, #ff6e05, #ff8505);
   color: #fff;
   background-repeat: no-repeat;
 }
@@ -196,7 +202,7 @@ th {
 .navbar-default {
   background-color: #ffffff;
   border-bottom: none;
-  border-top: 5px solid #d07b2d;
+  border-top: 5px solid #ec7100;
   border-bottom: 1px solid #ededed;
 }
 
@@ -229,7 +235,7 @@ th {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #000000;
-  background-color: #fbfbfb;
+  /*background-color: #fbfbfb;*/
 }
 .navbar-default .navbar-toggle {
   border-color: #fbfbfb;
@@ -243,7 +249,7 @@ th {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #252525;
+  border-color: transparent;
 }
 .navbar-default .navbar-link {
   color: #252525;
@@ -269,14 +275,22 @@ th {
 }
 
 .register-btn {
-  background-color: #66b528;
+  background: linear-gradient(to right, #5ea427, #66b528);
   color: #fff !important;
   min-width: 75px;
   text-align: center;
+  -webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
 }
 
 .register-btn:hover {
-  background-color: #70c62d !important;
+  background: linear-gradient(to right, #5ea427, #66b528);
+  -webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+  background-color: transparent;
+
 }
 
 .register-btn:focus {
@@ -285,6 +299,28 @@ th {
 
 .register-btn a {
   color: #fff !important;
+}
+
+.btn-register {
+  color: #fff !important;
+  background-color: #5ea427 !important;
+  border-radius: 20px;
+  border-width: 2px;
+  font-size: 14px;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+.btn-register:hover {
+  color: #fff !important;
+  background-color: #66b528 !important;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+  background-repeat: no-repeat;
+
 }
 
 .btn-default {
@@ -879,7 +915,22 @@ button.close {
     }
 }
 
-/* Tuition Table fix in portrait mode */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+ {
+
+    #tuition-table {
+      max-width: 100% !important;
+    }
+
+    #register-btn {
+      margin-left: 1rem !important;
+    }
+
+}
+
 @media only screen
 and (min-device-width: 375px)
 and (max-device-width: 667px)
@@ -890,9 +941,11 @@ and (orientation: portrait) {
       max-width: 100% !important;
     }
 
+
+
 }
 
-/* Tuition Table fix in portrait mode */
+
 @media only screen
 and (min-device-width: 375px)
 and (max-device-width: 667px)
